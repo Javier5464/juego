@@ -41,9 +41,9 @@
             return $msg[$resultado];
         }
     ?>
-    <h3>Jugador 1: </h3>  <?php echo $opciones[$jugador1] ?> <br>
-    <h3>Jugador 2: </h3><?php echo $opciones[$jugador2]  ?> <br>
-    <h3>Resultado: </h3>  <?php echo ganador($jugador1, $jugador2, $tabla, $msg, $a)?>
+    <h3>Jugador 1: </h3><?php echo '<span style="font-size: 70px;">' . $opciones[$jugador1] . '</span>'; ?> 
+    <h3>Jugador 2: </h3><?php echo '<span style="font-size: 70px;">' . $opciones[$jugador2] . '</span>'; ?> <br><br><br>
+    <h3><?php echo ganador($jugador1, $jugador2, $tabla, $msg, $a)?></h3> 
 
 </body>
 </html>
